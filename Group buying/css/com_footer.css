@@ -1,0 +1,52 @@
+/* 底部链接*/
+.footer {
+  width: 100%;
+  height: 400px;
+  /* background-color: rgb(117, 139, 153); */
+  margin-top: 40px;
+}
+.footer-center {
+  width: 1190px;
+  height: 750px;
+  /* background-color: rgb(99, 48, 106); */
+  margin: 0 auto;
+  border-top: 1px solid #e5e5e5;
+}
+/* 底部链接详细信息 */
+.footer-center-content {
+  width: 150px;
+  height: 170px;
+  margin: 40px 0px 0px 70px;
+  float: left;
+}
+.footer-center-content ul b {
+  font-size: 14px;
+  color: #333;
+  line-height: 22px;
+  font-weight: 500;
+  display: block;
+}
+.footer-center-content ul li {
+  font-size: 12px;
+  color: #666;
+  line-height: 2;
+}
+.footer-center-content ul li:hover {
+  color: #f6ab41;
+  cursor: pointer;
+}
+/* 关于网站的介绍 */
+.info {
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+}
+.info-center {
+  width: 1190px;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 100px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}

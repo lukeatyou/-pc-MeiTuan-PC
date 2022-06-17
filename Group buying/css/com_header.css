@@ -1,0 +1,148 @@
+/* 头部导航 */
+.nav {
+  width: 100%;
+  height: 40px;
+  background: #f8f8f8;
+  /* background-color:red; */
+}
+.nav-center {
+  width: 1190px;
+  height: 40px;
+  background: #f8f8f8;
+  margin: 0 auto;
+}
+/* 导航栏左侧，位置登陆注册 */
+.nav-center-left {
+  width: 400px;
+  height: 40px;
+  font-size: 12px;
+  color: #999;
+  line-height: 40px;
+  /* background-color: aquamarine; */
+  float: left;
+}
+.nav-center-left a {
+  color: #999;
+}
+.nav-center-left a:nth-child(2) {
+  color: #666;
+}
+.nav-center-left a:nth-child(3) {
+  color: #666;
+  border: 1px solid #e5e5e5;
+}
+.nav-center-left a:nth-child(5) {
+  padding-left: 15px;
+  padding-right: 10px;
+  color: #fe8c00;
+}
+.nav-center-left a:hover {
+  color: #fe8c00;
+}
+/* 导航栏右侧，我的美团  手机App 商家中心 */
+.nav-center-right {
+  width: 455px;
+  height: 40px;
+  /* background-color: aquamarine; */
+  float: right;
+  font-size: 12px;
+  color: #999;
+  line-height: 40px;
+}
+.nav-center-right a {
+  padding: 0px 20px;
+}
+.nav-center-right a:hover {
+  color: #fe8c00;
+}
+/* 下拉菜单 */
+.dropdown{
+  width: 90px;
+  height: 40px;
+  float: left;
+}
+.dropdown ul{
+  width: 88px;
+  height: 160px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 2; 
+  border: 1px solid #e5e5e5;
+  border-top: none;
+  display: none;
+}
+.dropdown a{
+  display: block;
+}
+.dropdown a:hover{
+  background-color: #fff;
+}
+.dropdown ul li{
+  text-align: center;
+}
+.dropdown:hover ul{
+  display: block;
+  background-color: #fff;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.1);
+}
+.dropdown ul li:hover{
+  cursor: pointer;
+  color:#fe8c00;
+}
+.dropdown:hover a{
+  border: 1px solid #e5e5e5;
+  border-bottom: none;
+}
+/* 头部区域css在com_header.css */
+/* 搜索区域 */
+.header {
+  width: 100%;
+  height: 157px;
+  background-color:#fff;
+  box-shadow: 0 2px 27px 0 rgb(0, 0, 0, 0.1);
+}
+.header-center {
+  width: 1190px;
+  height: 157px;
+  /* background-color:rgb(152, 236, 199); */
+  margin: 0 auto;
+}
+/* logo区域 */
+.header-center-left {
+  width: 295px;
+  height: 157px;
+  /* background-color:rgb(100, 187, 202); */
+  font-size: 0px;
+  float: left;
+}
+.header-center-left h1 a img {
+  width: 126px;
+  height: 46px;
+  padding: 26px 60px 64px 0px;
+}
+.header-center-center {
+  width: 550px;
+  height: 40px;
+  /* background-color:rgb(140, 195, 159); */
+  font-size: 0px;
+  float: left;
+  margin-top: 28px;
+}
+.header-center-center input {
+  width: 468px;
+  height: 38px;
+  border: 1px solid #e5e5e5;
+  border-right-width: 0px;
+  outline: none;
+  color: #999;
+}
+.header-center-center button {
+  width: 80px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  border-left-width: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #ffc300;
+}
